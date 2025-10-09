@@ -1,0 +1,6 @@
+xychart-beta
+    title "Прогресс решения Егэ по информатике"
+    x-axis [sep, oct, nov, dec, jan, feb, mart, april, may, exeam aa]
+    y-axis "Прогресс (в балллах)" 0 --> 100
+    bar [0, 20, 40, 60, 67, 70,75,80,81, 100]
+    line [1, 5, 10, 20, 40, 60, 70, 90, 85, 150]
