@@ -1,0 +1,23 @@
+rn=0
+re=0
+s = input()
+while s !='stop':
+    p = s[0]
+    k = int(s[1:])
+    if p == 'N':
+        rn += k
+    if p == 'S':
+        rn -= k
+    if p == 'E':
+        re += k
+    if p == 'W':
+        re -= k
+    s = input()
+if rn < 0:
+    print('S', rn)
+else:
+    print('N', rn)
+if re>=0:
+    print('E', re)
+else:
+    print('W', abs(re))
