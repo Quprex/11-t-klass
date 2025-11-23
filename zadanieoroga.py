@@ -1,4 +1,4 @@
-final = 342 
+final = 343 
 maxStart = 0 
 
 for k in range(1001):  
@@ -7,3 +7,4 @@ for k in range(1001):
         maxStart = max(maxStart, startZeros) 
 
 print(maxStart) 
+
