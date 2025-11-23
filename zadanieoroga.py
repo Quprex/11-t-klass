@@ -12,4 +12,5 @@ for pos in range(total_length):
         total_initial_zeros = zeros_left + zeros_right
         possible_zero_counts.append(total_initial_zeros)
 max_initial_zeros = max(possible_zero_counts)
-print("Максимальное количество нулей в исходной последовательности:", max_initial_zeros)
+print(max_initial_zeros)
+
